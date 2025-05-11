@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: red;
+        }
+        h1{
+            padding: 0;
+            float: left;
+        }
+        .red{
+            float: right;
+            
+            
+        }
+        .red div{
+            margin: 20px;
+            float: left;
+        }
+        .lok::after{
+            clear: both;
+            content: '';
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is heading 1</h1>
+        <nav class="red">
+            <div class="parent">
+               Home
+            </div>
+            <div class="parent1">
+                About
+            </div>
+            <div class="parent2">
+             learn
+             
+            </div>
+        </nav>
+        <div class="lok">
+            
+        </div>
+    </header>
+</body>
+</html>
