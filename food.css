@@ -221,3 +221,19 @@ margin-bottom: 10px;
     color: rgb(36, 35, 35);
     transition: all 0.8s;
 }
+
+/* customers review section*/
+.customers{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+   
+}
+.review{
+   display: grid;
+   grid-template-columns: 1fr 1fr;;
+}
+.cust-img{
+    width: 78px;
+    border-radius: 50%;
+}
+
