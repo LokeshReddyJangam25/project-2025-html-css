@@ -1,0 +1,14 @@
+@media (max-width: 82rem) {
+  .sec-one{
+max-width: 120rem; 
+ }
+ .new {
+  max-width: 1000px;
+ }
+}
+
+@media (max-width: 58rem) {
+  .price{
+    max-width: 55rem;
+  }
+}
